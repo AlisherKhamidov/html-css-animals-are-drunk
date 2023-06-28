@@ -3,6 +3,10 @@ img {
 
 }
 
+p {
+  color: green;
+}
+
 body {
   width: 800px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
