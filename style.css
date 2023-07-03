@@ -1,5 +1,9 @@
+* {
+  background-color: cadetblue;
+}
+
 img {
-  height: 400px;
+  height: 300px;
 
 }
 
@@ -9,38 +13,65 @@ body {
 }
 
 .headline {
-  color: rgba(24, 18, 209, 0.579);
-  font-size: 40px;
+  color: aqua;
+  font-size: 42px;
   text-align: center;
+  text-decoration: underline;
 }
 
 .subheader {
+  font-size: large;
   font-weight: bold;
-  font-style: italic;
+  font-style: oblique;
   text-align: center;
 }
 
 .intro {
   font-style: italic;
-  text-decoration: underline dotted;
+  color: aliceblue;
+  font-size: medium;
+  text-decoration: double;
 }
 
-.main-text,
-#text-more {
-  text-indent: 30px;
+.main-text {
+  text-indent: 40px;
+  font-style: italic;
   font-size: 20px;
+  color:azure;
+}
+#text-more {
+  text-indent: 40px;
+color: aliceblue;
+font-size: 16px;
+
 }
 
 .bald-idea {
-  text-decoration: underline chocolate;
-  font-weight: bold;
+  color: rgb(154, 248, 166);
+  text-decoration: underline rgb(150, 236, 147);
+  font-size: 22px;
+  text-align: center;
 }
 
 #endtext {
-  font-size: 20px;
-  color: darkblue;
-}
 
+  font-size: 20px;
+  color: rgb(9, 9, 182);
+}
+#idea3 {
+  text-indent: 40px;
+  font-style: oblique;
+  font-size: medium;
+  color: antiquewhite;
+  text-align: left;
+}
+h3 {
+  background-color: azure;
+  text-align: center;
+}
 p {
-  color: black;
+  color: rgb(203, 247, 9);
+}
+div {
+  color: rgb(238, 234, 11);
 }
